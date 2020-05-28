@@ -10,14 +10,18 @@ public class MyWorld extends World
 {   
     public MyWorld()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1280, 720, 1); 
+        super(1280, 720, 1);
+        
         Setup();
     }
     
     private void Setup(){
-        for(int i = 0; i < getHeight()/100; i++){
-            addObject(new Stickman(), 5, 100*i + 50);
-        }
+        //GreenfootSound music = new GreenfootSound("MainTheme.mp3");
+        //music.setVolume(10);
+        addObject(new EnemySpawner(), 0, 0);
+        addObject(new PlayerSpawner(), 0, 0);
+        addObject(new DefaultStickmanButton(), 100, getHeight() - 100);
+        addObject(new SwordStickmanButton(), 215, getHeight() - 100);
+        //music.playLoop();
     }
 }
