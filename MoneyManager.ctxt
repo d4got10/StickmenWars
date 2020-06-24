@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=MoneyManager
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MoneyManager\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=world\ x\ y
+comment1.target=MoneyManager(greenfoot.World,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ updateImage()
+comment4.params=amount
+comment4.target=void\ addMoney(int)
+comment5.params=amount
+comment5.target=boolean\ spendMoney(int)
+numComments=6

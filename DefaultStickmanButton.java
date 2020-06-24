@@ -8,14 +8,21 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class DefaultStickmanButton extends Buttons
 {
+    public DefaultStickmanButton()
+    {
+        getImage().scale(100, 100);
+    }
     public void onPressed()
     {
-        setImage("Button_Stickman_Default_Pressed.png");
+        setImage("Stickman Default Button Pressed.png");
+        getImage().scale(100, 100);
     }
     
     public void onClicked()
     {
-        setImage("Button_Stickman_Default.png");
-        PlayerSpawner.instance.spawnStickman(0);
+        setImage("Stickman Default Button.png");
+        getImage().scale(100, 100);
+        if(MoneyManager.instance.spendMoney(1))
+            PlayerSpawner.instance.spawnStickman(0);
     }
 }

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=KatanaStickman
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ KatanaStickman\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ InitializeStickman()
+comment2.params=
+comment2.target=KatanaStickman()
+comment3.params=isEnemy
+comment3.target=KatanaStickman(boolean)
+numComments=4

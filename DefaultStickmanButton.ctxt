@@ -2,7 +2,9 @@
 comment0.target=DefaultStickmanButton
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ DefaultStickmanButton\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=void\ onPressed()
+comment1.target=DefaultStickmanButton()
 comment2.params=
-comment2.target=void\ onClicked()
-numComments=3
+comment2.target=void\ onPressed()
+comment3.params=
+comment3.target=void\ onClicked()
+numComments=4

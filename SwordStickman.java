@@ -12,10 +12,11 @@ public class SwordStickman extends Stickman
     {
         setImageName("Sword");
         setSpeed(4);
-        setAttackRate(5);
-        setAttackRange(80);
+        setAttackRate(10);
+        setAttackRange(70);
         setDamage(2);
         setHealth(3);
+        setWalkingRange(30);
         this.isAlive = true;
     }
     

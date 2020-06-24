@@ -8,18 +8,28 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class DefaultStickman extends Stickman
 {
-    public DefaultStickman()
+    private void InitializeStickman()
     {
         setImageName("Default");
         setSpeed(5);
+        setHealth(3);
+        setDamage(1);
+        setAttackRate(12);
+        setAttackRange(50);
+        setWalkingRange(30);
         this.isAlive = true;
+    }
+    
+    public DefaultStickman()
+    {
+        InitializeStickman();
     }
     
     public DefaultStickman(boolean isEnemy)
     {
-        setImageName("Default");
+        InitializeStickman();
+        
         this.isEnemy = isEnemy;
-        this.isAlive = true;
         if(isEnemy){
             turn(180);
             getImage().mirrorVertically();

@@ -2,7 +2,9 @@
 comment0.target=DefaultStickman
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Default\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=DefaultStickman()
-comment2.params=isEnemy
-comment2.target=DefaultStickman(boolean)
-numComments=3
+comment1.target=void\ InitializeStickman()
+comment2.params=
+comment2.target=DefaultStickman()
+comment3.params=isEnemy
+comment3.target=DefaultStickman(boolean)
+numComments=4

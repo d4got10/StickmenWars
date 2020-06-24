@@ -8,14 +8,21 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class SwordStickmanButton extends Buttons
 {
+    public SwordStickmanButton()
+    {
+        getImage().scale(100, 100);
+    }
     public void onPressed()
     {
-        setImage("Button_Stickman_Sword_Pressed.png");
+        setImage("Stickman Sword Button Pressed.png");
+        getImage().scale(100, 100);
     }
     
     public void onClicked()
     {
-        setImage("Button_Stickman_Sword.png");
-        PlayerSpawner.instance.spawnStickman(1);
+        setImage("Stickman Sword Button.png");
+        getImage().scale(100, 100);
+        if(MoneyManager.instance.spendMoney(5))
+            PlayerSpawner.instance.spawnStickman(3);
     }  
 }
