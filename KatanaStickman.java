@@ -12,9 +12,9 @@ public class KatanaStickman extends Stickman
     {
         setImageName("Katana");
         setSpeed(4);
-        setHealth(6);
+        setHealth(2);
         setDamage(4);
-        setAttackRate(12);
+        setAttackRate(10);
         setAttackRange(100);
         setWalkingRange(30);
         this.isAlive = true;
